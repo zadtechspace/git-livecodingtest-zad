@@ -202,3 +202,98 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+.s4{
+    width: 100%;
+    padding: 20px 100px;
+    background-color: black;
+    border-bottom: 1px white;
+    border-top: 1px solid white;
+    height: auto;
+}
+
+.s4box{
+    width: 100%;
+     
+    
+}
+
+.s4box1{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* text-align: center; */
+    /* padding-right: 100px; */
+    /* gap: 100px; */
+    
+}
+#s4box1div1{
+    width: 100%;
+    padding-right: 200px;
+}
+
+#s4box1div1 h2{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+#s4box1div1 ol li{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* margin-top: 2px; */
+    line-height: 25px;
+    color: white;
+  
+}
+
+#s4box1div2 {
+    width: 100%;
+    text-align: center;
+}
+#s4box1div2 img{
+    width: 50%;
+}
+
+.s4box2{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0px 50px; */
+    gap: 300px;
+}
+
+#s4box2div1{
+    width: 100%;
+   
+   
+}
+
+#s4box2div1 img{
+    width: 80%;
+}
+
+#s4box2div2{
+    width: 100%;
+    /* padding-right: 200px; */
+    text-align: ;
+
+}
+
+#s4box2div2 h2{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+#s4box2div2 ol li{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* margin-top: 2px; */
+    line-height: 25px;
+    color: white;
+  
+}
+
