@@ -1,8 +1,12 @@
-*{
+/* *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-}
+} */
+
+
+
+
 .nav1{
     width: 100%;
     height: auto;
@@ -30,14 +34,81 @@
 
 }
 
-.s1box1{
+.navbar{width: 100%;
+    background-color: rgba(255,255,255,0.08);
+    box-shadow: 0px 4px 30px rgba(0,0,0,0);}
+
+.navbarcontent1{width: 100%;}
+
+.logo{margin-left: 100px;}
+
+.logo h1{
+    color: white;
+}
+
+.navbtn1{display: none;}
+
+.navbarcontent2{width: 100%;padding-left: 200px;}
+
+.navbarcontent2 ul li a{
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    margin-left: 10px;
+
+    
+   
+}
+
+
+
+.navbtn2{
+    background-color:blue;
+    padding: 0px 15px;
+    border: none;
+    border-radius: 8px;
+    /* margin-left: 20px; */
+    transition: 0.5s linear;
+}
+
+.navbtn2 a{
+    color: white;
+    text-decoration: none;
+   
+   
+    font-size: 16px;
+ 
+}
+
+
+
+
+
+
+.offcanvascontent a{
+    color: #224093;
+    font-size: 6vw;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.offcanvascontent button{
+    background-color: #fdb915;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: 0.5s linear;
+}
+
+/* .s1box1{
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgba(255,255,255,0.08);
     box-shadow: 0px 4px 30px rgba(0,0,0,0);
-    padding: 10px 100px;
+    padding: 0px 100px;
    
    
 }
@@ -47,7 +118,7 @@
 }
 
 .s1box1div1 h1{
-    font: 35px;
+    font-size: 30px;
     color: white;
 }
 
@@ -57,10 +128,10 @@
     width: 100%;
     display: flex;
     /* justify-content: space-between; */
-    align-items: center;
+    /* align-items: center;
     gap: 30px;
-}
-.s1box1div2 ul{
+} */
+/* .s1box1div2 ul{
     display: flex;
     gap: 30px;
 }
@@ -78,7 +149,7 @@
     border-radius: 5px;
     font-size: 12px;
     color: white;
-}
+} */ 
 
 .s1box2{
     width: 100%;
@@ -301,5 +372,135 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     line-height: 25px;
     color: white;
   
+}
+
+
+
+
+
+@media screen and (min-width:320px) and (max-width:963px) {
+    body{
+        width: 100%;
+        padding: 0px;
+    }
+    .logo{margin-left: 0px;}
+    .logo h1{
+        color: white;
+    }
+
+    .navbtn1{display: contents;}
+
+    .navbarcontent2{display: none;}
+
+
+    .nav1box{
+        width: 100%;
+        padding: 0px;
+        align-items: normal;
+    }
+
+.s1{
+    width:100% ;
+    height: auto;
+    padding: 20px 5px;
+}
+
+.s1box2{
+    padding: 0px;
+}
+
+.s1box2div{
+    width: 100%;
+}
+
+.s1box2div div h1{
+    font-size: 8vw;
+}
+
+.s1box2div div p{
+    font-size: 4vw;
+}
+
+.s2{
+    width: 100%;
+    padding: 10px;
+}
+
+.s2box p{
+    font-size: 4vw;
+
+}
+
+.s2box div img{
+    width: 10%;
+}
+
+.s3{
+    padding: 10px;
+    height: auto;
+}
+
+.s3box1 h3{
+    font-size: 4vw;
+}
+.s3box2{
+    gap: 5px;
+}
+
+.s3box2 div{
+    padding: 2px;
+    width: 100%;
+    height: auto;
+}
+
+.s3box2 div h3{
+    font-size: 2vw;
+}
+
+.s3box2 div p{
+    font-size: 2vw;
+    
+}
+
+
+.s4{
+    padding: 10px;
+}
+
+#s4box1div1{
+    width: 100%;
+    padding: 0px;
+}
+
+#s4box1div1 h2{
+    font-size: 5vw;
+}
+
+#s4box1div1 ol li{
+    font-size: 2vw;
+    line-height: 30px;
+}
+
+#s4box1div2 img{
+    width: 100%;
+}
+
+.s4box2{
+    gap: 0px;
+}
+
+#s4box2div1 img{
+    width: 100%;
+}
+
+#s4box2div2 h2{
+    font-size: 5vw;
+}
+
+#s4box2div2 ol li{
+    font-size: 2vw;
+    line-height: 30px;
+}
+
 }
 
