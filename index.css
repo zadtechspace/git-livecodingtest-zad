@@ -229,6 +229,7 @@
     text-align: center;
     height: auto;
     background-color: black;
+ 
 }
 
 .s3box{
@@ -284,9 +285,10 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     width: 100%;
     padding: 30px 130px;
     background-color: black;
-    border-bottom: 1px white;
+  
     border-top: 1px solid white;
     height: auto;
+ 
 }
 
 .s4box{
@@ -350,11 +352,16 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 
 #s4box2div1 img{
     width: 80%;
+    
 }
 
 #s4box2div2{
     width: 100%;
     /* padding-right: 200px; */
+    background-image: url(img/mainbg.png);
+    background-position: center;
+    background-size: cover;
+    border: none;
    
 
 }
@@ -373,6 +380,120 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     color: white;
   
 }
+
+.s5{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    border-top: 1px solid white;
+    padding: 30px 0px;
+    background-image: url(img/mainbg.png);
+    background-position: bottom;
+    background-size: cover;
+}
+
+
+.s5box{
+    width: 100%;
+    padding: 0px 100px;
+}
+
+.s5box h6{
+    font-size: 16px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+}
+
+.s5box h2{
+    font-size: 50px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+}
+
+.s5box div{
+    width: 70%;
+}
+.s5box p{
+    font-size: 16px;
+    color: white;
+}
+
+.s6{
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+
+}
+
+.s6box{
+    width: 100%;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s6box1 h3{
+    font-size: 18px;
+}
+
+.s6box2 button{
+    background-color: #0c9dda;
+    color: white;
+   font-size: 15px;
+    padding:3px 10px;
+    border: none;
+}
+
+.s7{
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+    background-color: black;
+
+}
+
+.s7box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+    padding: 0px 100px;
+}
+
+.s7box ul h6{
+    font-size: 16px;
+    color: white;
+    font-weight: 550;
+}
+
+.s7box ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+.s8{
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+    background-color: black;
+    border-top: 0.2px solid #0a0a0a;
+}
+
+.s8box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0px 100px;
+}
+
+.s8box div{
+    color: white;
+}
+
+
 
 
 
@@ -502,5 +623,93 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     line-height: 30px;
 }
 
+.s5{
+    padding: 10px;
+}
+
+.s5box{
+    padding: 0px;
+}
+
+.s5box h6{
+    font-size: 4vw;
+}
+
+.s5box h2{
+    font-size: 8vw;
+}
+
+.s5box div{
+    width: 100%;
+}
+.s5box p{
+    font-size: 3vw;
+    color: white;
+    
+}
+
+.s6{
+    padding: 10px ;
+}
+
+.s6box{
+    padding: 0pc;
+}
+
+.s6box1{
+    width: 100%;
+}
+
+.s6box1 h3{
+    font-size: 3vw;
+    text-align: center;
+}
+
+.s6box2{
+    width: 100%;
+
+}
+
+.s6box2 button{
+    margin-top: 5px;
+}
+
+.s7{
+    padding: 30px 5px;
+}
+
+.s7box{
+    padding: 0px;
+    /* justify-content: center; */
+   
+}
+
+.s7box ul h6{
+    font-size: 3vw;
+    color: white;
+    font-weight: 500;
+}
+
+.s7box ul li a{
+    text-decoration: none;
+    font-size: 2vw;
+    color: white;
+}
+
+.s8{
+    padding: 10px;
+}
+
+.s8box{
+    padding: 0px;
+}
+
+.s8box div h4{
+    font-size: 4vw;
+}
+
+.s8box div h6{
+    font-size: 4vw;
+}
 }
 
